@@ -1,0 +1,19 @@
+GET localhost:8080/api/student/2
+
+###
+POST localhost:8080/api/student
+Content-Type: application/json
+
+{
+  "firstName": "Stefan",
+  "lastName": "test",
+  "email": "abc.cc@gmx.ch"
+}
+
+### Change Log Level
+POST http://localhost:8080/actuator/loggers/ch.guggisberg.stefan.microservice.microservicesexample
+Content-Type: application/json
+
+{
+  "configuredLevel": "DEBUG"
+}

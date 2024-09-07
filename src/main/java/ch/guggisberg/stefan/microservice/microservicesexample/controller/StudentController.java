@@ -7,22 +7,22 @@ import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.context.request.WebRequest;
 
 @RestController
 @AllArgsConstructor
+@RequestMapping("/api/student")
 public class StudentController {
 
     private final StudentService studentService;
 
-    @GetMapping("student/{id}")
+    @GetMapping("/{id}")
     public ResponseEntity<StudentDto> gegtStudent(@PathVariable Long id) {
-        return new ResponseEntity<>(studentService.findById(id), HttpStatus.CREATED);
+        return new ResponseEntity<>(studentService.findById(id), HttpStatus.OK);
     }
 
-    @PostMapping("student")
+    @PostMapping()
     public ResponseEntity<StudentDto> save(@Valid @RequestBody StudentDto studentDto) {
-        return new ResponseEntity<>(studentService.save(studentDto), HttpStatus.OK);
+        return new ResponseEntity<>(studentService.save(studentDto), HttpStatus.CREATED);
     }
 
 }
