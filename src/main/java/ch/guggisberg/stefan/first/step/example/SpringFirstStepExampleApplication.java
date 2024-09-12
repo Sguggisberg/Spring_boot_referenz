@@ -1,13 +1,13 @@
-package ch.guggisberg.stefan.microservice.microservicesexample;
+package ch.guggisberg.stefan.first.step.example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MicroservicesExampleApplication {
+public class SpringFirstStepExampleApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MicroservicesExampleApplication.class, args);
+        SpringApplication.run(SpringFirstStepExampleApplication.class, args);
     }
 
 }

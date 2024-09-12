@@ -1,6 +1,6 @@
-package ch.guggisberg.stefan.microservice.microservicesexample.exception;
+package ch.guggisberg.stefan.first.step.example.exception;
 
-import ch.guggisberg.stefan.microservice.microservicesexample.model.ErrorDetails;
+import ch.guggisberg.stefan.first.step.example.model.ErrorDetails;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;

@@ -1,4 +1,4 @@
-package ch.guggisberg.stefan.microservice.microservicesexample.entity;
+package ch.guggisberg.stefan.first.step.example.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

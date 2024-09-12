@@ -1,4 +1,4 @@
-package ch.guggisberg.stefan.microservice.microservicesexample.exception;
+package ch.guggisberg.stefan.first.step.example.exception;
 
 public class ResourceNotFoundException extends RuntimeException{
     public ResourceNotFoundException(String message) {

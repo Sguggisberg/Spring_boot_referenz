@@ -1,7 +1,7 @@
-package ch.guggisberg.stefan.microservice.microservicesexample.controller;
+package ch.guggisberg.stefan.first.step.example.controller;
 
-import ch.guggisberg.stefan.microservice.microservicesexample.model.StudentDto;
-import ch.guggisberg.stefan.microservice.microservicesexample.service.StudentService;
+import ch.guggisberg.stefan.first.step.example.model.StudentDto;
+import ch.guggisberg.stefan.first.step.example.service.StudentService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.tags.Tag;

@@ -1,4 +1,4 @@
-package ch.guggisberg.stefan.microservice.microservicesexample.model;
+package ch.guggisberg.stefan.first.step.example.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

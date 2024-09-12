@@ -1,4 +1,4 @@
-package ch.guggisberg.stefan.microservice.microservicesexample.model;
+package ch.guggisberg.stefan.first.step.example.model;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.Email;

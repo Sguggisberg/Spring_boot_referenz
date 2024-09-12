@@ -1,4 +1,4 @@
-package ch.guggisberg.stefan.microservice.microservicesexample.config;
+package ch.guggisberg.stefan.first.step.example.config;
 
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.info.Info;

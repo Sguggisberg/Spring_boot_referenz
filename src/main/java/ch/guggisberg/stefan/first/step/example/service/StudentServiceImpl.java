@@ -1,9 +1,9 @@
-package ch.guggisberg.stefan.microservice.microservicesexample.service;
+package ch.guggisberg.stefan.first.step.example.service;
 
-import ch.guggisberg.stefan.microservice.microservicesexample.entity.StudentEntity;
-import ch.guggisberg.stefan.microservice.microservicesexample.exception.ResourceNotFoundException;
-import ch.guggisberg.stefan.microservice.microservicesexample.model.StudentDto;
-import ch.guggisberg.stefan.microservice.microservicesexample.repository.StudentRepository;
+import ch.guggisberg.stefan.first.step.example.entity.StudentEntity;
+import ch.guggisberg.stefan.first.step.example.model.StudentDto;
+import ch.guggisberg.stefan.first.step.example.exception.ResourceNotFoundException;
+import ch.guggisberg.stefan.first.step.example.repository.StudentRepository;
 import lombok.AllArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;

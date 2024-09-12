@@ -1,4 +1,4 @@
-package ch.guggisberg.stefan.microservice.microservicesexample.config;
+package ch.guggisberg.stefan.first.step.example.config;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;
